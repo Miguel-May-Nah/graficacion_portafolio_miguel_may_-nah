@@ -1,0 +1,34 @@
+function setup() {
+  createCanvas(300, 400);
+  background(220); // Fondo claro
+  noLoop();
+}
+
+function draw() {
+  
+  fill(200, 200, 255);
+  rect(100, 50, 100, 110);
+  fill(0);
+  ellipse(125, 90, 20, 20);
+  ellipse(175, 90, 20, 20); 
+  line(120, 120, 180, 120); 
+
+  stroke(0);
+  line(150, 50, 150, 20);
+  fill(255, 0, 0);
+  ellipse(150, 20, 15, 15);
+
+  fill(180, 255, 180);
+  rect(90, 160, 120, 150);
+
+  fill(200);
+  rect(50, 170, 40, 20);
+  rect(210, 170, 40, 20);
+
+  fill(150);
+  rect(110, 310, 30, 70);
+  rect(160, 310, 30, 70); 
+
+  fill(255, 200, 0);
+  triangle(120, 200, 180, 200, 150, 240);
+}
